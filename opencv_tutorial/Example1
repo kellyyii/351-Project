@@ -1,0 +1,33 @@
+import cv2
+ 
+# Load the image
+#cv2.imread(filename, flag) 
+image = cv2.imread("img.jpg")
+
+#specifies to load a color image. Any transparency of image will be neglected.
+#image = cv2.imread("img.jpg", cv2.IMREAD_COLOR) OR image = cv2.imread("img.jpg", 1)
+
+#load an image in grayscale mode
+#image = cv2.imread("img.jpg", cv2.IMREAD_GRAYSCALE) OR image = cv2.imread("img.jpg", 0)
+
+#load an image in all channel
+#image = cv2.imread("img.jpg", cv2.IMREAD_UNCHANGED) OR image = cv2.imread("img.jpg", -1)
+ 
+# Display the image
+#cv2.imshow(window_name, image)
+cv2.imshow("Image", image)
+ 
+#output image as jpg
+#cv2.imwrite('output0.jpg', image)
+
+#set jpeg image quility as 90
+#cv2.imwrite('output3.jpg', image, [cv2.IMWRITE_JPEG_QUALITY, 90])
+
+# 設定 PNG 壓縮層級為 5（可用值為 0 ~ 9）
+#cv2.imwrite('output4.png', img, [cv2.IMWRITE_PNG_COMPRESSION, 5])
+
+# Wait for the user to press a key
+cv2.waitKey(0)
+ 
+# Close all windows
+cv2.destroyAllWindows()
