@@ -19,3 +19,12 @@ solve: converting bg's data type to float (float32).
 3. Error code 0011
 <img width="484" alt="image" src="https://github.com/kellyyii/351-Project/assets/71577249/7605a9b5-c903-458a-aa3b-c021d87a328d">
 
+4. IndexError
+np.multiply(bg, np.atleast_3d(255 - hood_resized[:,:,3])/255.0,out=bg, casting="unsafe")
+                                        ~~~~~~~~~~~~^^^^^^^
+IndexError: index 3 is out of bounds for axis 2 with size 3
+
+Solve: remove [:,:,3]
+
+
+
