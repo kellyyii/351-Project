@@ -1,12 +1,10 @@
 import cv2
 import dlib
 import numpy as np
-from cvzone.SelfiSegmentationModule import SelfiSegmentation
 
 cap = cv2.VideoCapture(0)
 hog_face_detector = dlib.get_frontal_face_detector()
 dlib_facelandmark = dlib.shape_predictor("shape_predictor_68_face_landmarks.dat")
-segmentor = SelfiSegmentation()
 
 hood_image = cv2.imread("deco/deco_crocodile.png", cv2.IMREAD_UNCHANGED)
 hood_image = cv2.resize(hood_image, (640, 480))
