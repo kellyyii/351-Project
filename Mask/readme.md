@@ -1,4 +1,9 @@
-<img width="483" alt="image" src="https://github.com/kellyyii/351-Project/assets/71577249/570b11ed-4438-41e0-928c-6eda52ba5457">
+<img width="478" alt="image" src="https://github.com/kellyyii/351-Project/assets/71577249/62ccaf10-983e-4fc2-8fca-7ced349cc970">
+<img width="485" alt="image" src="https://github.com/kellyyii/351-Project/assets/71577249/8b795d4d-4024-4ca3-9235-2499f74e5c80">
+<img width="484" alt="image" src="https://github.com/kellyyii/351-Project/assets/71577249/4ec0fc11-0cac-479d-99f0-2657308a9315">
+
+
+
 
 
 Big thanks to How to do Facial Recognition And Overlay with Image Asset (Python2 & OpenCV: png with Alpha Channel Transparency) by Blade Nelson
